@@ -1,0 +1,9 @@
+{
+  "name": "AIChatContextQuestions",
+  "description": "Интеллектуальный опросник: анализирует сообщение пользователя через ИИ, выводит контекстные вопросы в модальном окне и внедряет ответы в промпт.",
+  "version": "1.0.0",
+  "author": "Antigravity Developer",
+  "entry": "index.js",
+  "ui": "modal",
+  "hooks": ["onUserMessage", "onPromptGeneration"]
+}
