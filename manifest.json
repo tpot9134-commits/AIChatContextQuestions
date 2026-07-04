@@ -4,5 +4,5 @@
   "version": "1.0.0",
   "author": "tpot9134",
   "entry": "index.js",
-  "hooks": ["onUserMessage", "onPromptGenerate"]
+  "hooks": ["onUserMessage", "onPromptGeneration"]
 }
