@@ -1,0 +1,8 @@
+{
+  "name": "AIChatContextQuestions",
+  "description": "SillyTavern extension that intercepts user messages, generates three contextual follow‑up questions via a hidden LLM call, presents them in a modal, stores answers and injects them into the next bot prompt.",
+  "version": "1.0.0",
+  "author": "tpot9134",
+  "entry": "index.js",
+  "hooks": ["onUserMessage", "onPromptGenerate"]
+}
